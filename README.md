@@ -1,7 +1,8 @@
-# GoQuant
+
 High-Performance Order Execution & Management System
 For GoQuant Recruitment - Deribit Test Integration
-Table of Contents
+
+*Table of Contents*
 Introduction
 System Overview
 Technology Stack
@@ -12,6 +13,7 @@ Performance Optimization
 Latency Benchmarking
 Testing & Debugging
 Deliverables
+
 1. Introduction
 This project is a high-performance order execution and management system for trading on Deribit Test. It supports order placement, modification, cancellation, and real-time market data streaming using WebSockets.
 
@@ -22,6 +24,7 @@ Place, modify, cancel orders via Deribit API.
 Stream real-time market data using WebSockets.
 Optimize for low latency to ensure efficient trading.
 Measure performance and identify bottlenecks.
+
 3. Technology Stack
 Component	Technology Used
 Language	C++
@@ -37,10 +40,12 @@ sh
 Copy
 Edit
 sudo apt update && sudo apt install libcurl4-openssl-dev libwebsocketpp-dev libboost-all-dev
+
 2. Create a Deribit Test Account
 Sign up at Deribit Test.
 Navigate to API Keys and generate API credentials.
 Store your API_KEY and API_SECRET securely.
+
 5. Order Management Functions
 1. Place Order
 This function submits an order via the Deribit API.
